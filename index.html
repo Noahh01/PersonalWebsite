@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noah Hammoud's Website</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cddf843ec3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="nav__banner">
+                <h1>Noah Hammoud</h1>
+                <div class="ham_menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <ul class="nav__options">
+                <li>
+                    <a id='about' href="#About">About Me</a>
+                </li>
+                <li>
+                    <a id='projects' href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a id='resume' href="#Resume">Resume</a>
+                 </li>
+            </ul>
+        </nav>
+        <div class="about" id="About">
+            <img class='about_img' src="images/about_image.jpg">
+            <div class="about_text">
+                <h1>Hello, I'm Noah</h1>
+                <p>I am a third year software engingeering student at Carleton University</p>   
+                <h2>Experience with:</h2>
+                <div class="about_text_icons">
+                    <img src="images/Python.png" alt="Python logo">
+                    <img src="images/Java.png" alt="Java logo">
+                    <img src="images/aws.png" alt="Aws logo">
+                    <img src="images/C.png" alt="C logo">
+                    <img src="images/Html.png" alt="Html logo">
+                    <img src="images/Css.png" alt="Css logo">
+                    <img src="images/JavaScript.png" alt="JS logo">
+                    <img src="images/Php.png" alt="Php logo">
+                </div>
+            </div>  
+        </div>
+        <div class="projects" id="Projects">
+            <div class="project_text">
+                <h1>Latest Projects:</h1>
+            </div>
+            <div class="projects_pannel">
+                <div class="project_card">
+                    <img src="images/project1.png">
+                    <h1>AI Tic-Tac-Toe</h1>
+                    <p>using the pygame library. I created a tic tac toe game that implements an AI player. The AI was designed to either beat the user or tie.</p>
+                    <button onclick="location.href='https://github.com/Noahh01/AI-TicTacToe'" type="button">Learn More</button>
+                </div>
+                <div class="project_card">
+                    <img src="images/project2.jpg">
+                    <h1>AI Blackjack</h1>
+                    <p>A reacreation of the famous casino game Blackjack using the pygame library. The user faces off against an AI dealer.</p>
+                    <button onclick="location.href='https://github.com/Noahh01/Blackjack'" type="button">Learn More</button>
+                </div>
+                <div class="project_card">
+                    <img src="images/project3.jpg" >
+                    <h1>Monopoly GUI</h1>
+                    <p>Academic group project that consisted of recreating Monopoly using Java. The project had AI players and used the MVC and Observer design patterns.</p>
+                    <button onclick="location.href='https://github.com/Noahh01/MonopolySYSC3110'" type="button">Learn More</button>
+                </div>
+                <div class="project_card">
+                    <img src="images/project4.png">
+                    <h1>Sorting Visualizer</h1>
+                    <p>Created a sorting algorithm visualizer in Java using the Swing GUI toolkit. Allows users to visualize Bubble sort, Merge Sort, and Insertion sort.</p>
+                    <button onclick="location.href='https://github.com/Noahh01/SortingAlgorithmVisualizer'" type="button">Learn More</button>
+                </div>
+            </div> 
+        </div>
+        <div class="resume" id="Resume">
+            <h1>Resume:</h1>
+            <div class="resume_content">
+                <div class="resume_text">
+                    <h1>Click below to view my resume:</h1>
+                    <button onclick="location.href='NH Resume 2022.pdf'" type="button">Resume</button>
+                </div>
+                <img class="about_img" src="images/resume.jpg">
+            </div>
+        </div>        
+        <script src="main.js"></script>
+    </body>
+</html>
